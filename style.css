@@ -1,11 +1,12 @@
 *{
     padding : 0;
+    border:0;
     margin: 0;
     box-sizing: border-box;
 
 }
 
-body{
+* body{
     display : flex;
     justify-content: center;
     align-items: center;
@@ -58,15 +59,16 @@ button:active{
 }
 .op,.equal{
     background: #ff910a;
+    padding: 20px;
 
 }
 .op:hover, .equal:hover{
-    background: #ff9f0a;
+    background: #ff910a;
 
 }
-.fn{
+.fun{
     background:#5a5a7a;
 }
 .zero,.equal{
     grid-column: span 2;
-}
+} 
